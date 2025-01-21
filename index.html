@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige's Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Black+Ops+One&family=Fredoka:wght@300..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxanium:wght@200..800&family=Poiret+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="Crown PFP Light version.png" type="image/png">
+
+</head>
+
+<body>
+    <div class="Center">
+        <div class="Navbar">
+            <button onclick="HideSection('SectionHome')">Home</button>
+            <button onclick="HideSection('SectionServices')">Services</button>
+            <button onclick="HideSection('SectionPortfolio')">Portfolio</button>
+            <button onclick="HideSection('SectionReviews')">Reviews</button>
+            <button onclick="HideSection('SectionPricing')">Pricing</button>
+        </div>
+    </div>
+    <!--Bars-->
+    <div class="Bars">
+        <div class="BarsContainer">
+            <i class="fa-solid fa-bars" onclick="Menu()"></i>
+            <div class="Content">
+                <button onclick="HideSection('SectionHome')">Home</button>
+                <button onclick="HideSection('SectionServices')">Services</button>
+                <button onclick="HideSection('SectionPortfolio')">Portfolio</button>
+                <button onclick="HideSection('SectionReviews')">Reviews</button>
+                <button onclick="HideSection('SectionPricing')">Pricing</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Home-->
+    <div id="SectionHome">
+        <div class="Home">
+            <div class="Container">
+                <div class="Images">
+                    <img src="Crown PFP Light version.png">
+                </div>
+                <div class="Text">
+                    <h1>Prestige</h1>
+                    <h2>UI/UX Designer</h2>
+                    <hr>
+                    <h3>Prestige is a professional UI/UX desiner specializing in intuitive and responsive web, app, and
+                        game
+                        designs.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="DescriptionContainer">
+            <div class="Description">
+                <div class="Year1">
+                    <h1 id="Year">1+<span>Years of Experience</span></h1>
+                </div>
+                <div class="Project1">
+                    <h1 id="Project">50+ <span>Projects Completed</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services-->
+    <div id="SectionServices">
+        <div class="Services">
+            <div class="ServicesContainer">
+                <!--UI-->
+                <div class="Service-UI">
+                    <h1>UI / UX Design</h1>
+                    <h2>Responsiveness, Speed and Functionality are key in Web Design and Development. Modern design and
+                        AI gives your brand an edge in the market</h2>
+                </div>
+                <!--App Interface-->
+                <div class="Service-UI">
+                    <h1>App Interface</h1>
+                    <h2>Build powerful cross platform user interfaces of mobile applications for ios & android</h2>
+                </div>
+                <!--Game Interface-->
+                <div class="Service-UI">
+                    <h1>Game Interface</h1>
+                    <h2>Gaming Interface. I specialize in crafting beautiful and attractive games interfaces</h2>
+                </div>
+                <!--Web Interface-->
+                <div class="Service-UI">
+                    <h1>Web Interface</h1>
+                    <h2>I design beautiful prototypes that matches all your needs for your business with seamless user
+                        experience and satisfaction in mind.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio -->
+    <div id="SectionPortfolio">
+        <div class="Portfolio">
+            <div class="PortfolioContainer">
+                <!--imgsrc here-->
+                <div id="1" onclick="makeFullscreen(1)" class="Work">
+                    <img src="Modern Player Main Menu Ui.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="2" onclick="makeFullscreen(2)" class="Work">
+                    <img src="Modern Ui Main Frame.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="3" onclick="makeFullscreen(3)" class="Work">
+                    <img src="Modern Player Stats Ui.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="4" onclick="makeFullscreen(4)" class="Work">
+                    <img src="Modern Ui Settings Frame.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="5" onclick="makeFullscreen(5)" class="Work">
+                    <img src="Moder Ui Leaderboards.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="6" onclick="makeFullscreen(6)" class="Work">
+                    <img src="Moder Ui Shop.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="7" onclick="makeFullscreen(7)" class="Work">
+                    <img src="Modern-Purple-Icons (1).png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="8" onclick="makeFullscreen(8)" class="Work">
+                    <img src="Sc-fi Icons.png">
+                    <h2>Modern UI</h2>
+                </div>
+                <div id="9" onclick="makeFullscreen(9)" class="Work">
+                    <img src="Cartoony  Modern UI Quests.png">
+                    <h2>Cartoony UI</h2>
+                </div>
+                <div id="10" onclick="makeFullscreen(10)" class="Work">
+                    <img src="Cartoony Shop Pack Ui.png">
+                    <h2>Cartoony UI</h2>
+                </div>
+                <div id="11" onclick="makeFullscreen(11)" class="Work">
+                    <img src="Modern  Cartoony Inventory UI.png">
+                    <h2>Cartoony UI</h2>
+                </div>
+                <div id="12" onclick="makeFullscreen(12)" class="Work">
+                    <img src="Super Cartoony Cloud UI Pracice.png">
+                    <h2>Cartoony UI</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Reviews-->
+    <div id="SectionReviews">
+        <div class="Reviews">
+            <div class="ReviewsContainer">
+                <div class="Review">
+                    <!--Post Review Here-->
+                    <div class="User">
+                        <img src="Crown gold.png">
+                        <h1>Prestige</h1>
+                    </div>
+                    <h2>...</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Pricing-->
+    <div id="SectionPricing">
+        <div class="Pricing">
+            <div class="PricingContainer">
+                <!--Basic-->
+                <div class="Package">
+                    <img src="LOWLOW Tier.png" alt="">
+                </div>
+                <!--Mid-->
+                <div class="Package" id="ProPack">
+                    <img id="HighTier" src="HIGHIGH TIer.png" alt="">
+                </div>
+                <!--High-->
+                <div class="Package">
+                    <img src="MIDMID Tier.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
